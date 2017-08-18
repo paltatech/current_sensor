@@ -326,7 +326,7 @@ AR Path="/589DB170/589DB385" Ref="T1"  Part="1"
 AR Path="/589DEB44/589DB385" Ref="T2"  Part="1" 
 AR Path="/598FD5E6/589DB385" Ref="T2"  Part="1" 
 F 0 "T2" H 4736 3096 50  0000 R CNN
-F 1 "TRANS-2CT" H 5050 3400 50  0000 R CNN
+F 1 "TRANS-2CT" H 5150 2850 40  0000 R CNN
 F 2 "manuf:WURTH-760390014" H 4650 2800 60  0001 C CNN
 F 3 "http://katalog.we-online.de/ctm/datasheet/760390014.pdf" H -1000 850 60  0001 C CNN
 F 4 "Wurth Electronics Midcom" H 0   0   50  0001 C CNN "MFR"
@@ -349,7 +349,7 @@ AR Path="/589DB170/589DB38D" Ref="T1"  Part="2"
 AR Path="/589DEB44/589DB38D" Ref="T2"  Part="2" 
 AR Path="/598FD5E6/589DB38D" Ref="T2"  Part="2" 
 F 0 "T2" H 5135 3004 50  0000 R CNN
-F 1 "TRANS-2CT" H 5450 2700 50  0000 R CNN
+F 1 "TRANS-2CT" H 5550 2850 40  0000 R CNN
 F 2 "manuf:WURTH-760390014" H 5100 3400 60  0001 C CNN
 F 3 "http://katalog.we-online.de/ctm/datasheet/760390014.pdf" H -450 850 60  0001 C CNN
 F 4 "Wurth Electronics Midcom" H 0   0   50  0001 C CNN "MFR"
@@ -372,10 +372,6 @@ Text HLabel 8600 2900 2    60   Input ~ 0
 VDD2
 Text HLabel 8600 3500 2    60   Input ~ 0
 GND2
-Wire Notes Line
-	5100 2350 5100 5350
-Wire Notes Line
-	4900 2350 4900 5350
 Wire Wire Line
 	3650 3200 2600 3200
 Wire Wire Line
@@ -462,4 +458,8 @@ Wire Notes Line
 	8650 3050 8500 3050
 Text Notes 1350 1600 0    160  ~ 32
 ISOLATED POWER SUPPLY
+Wire Notes Line
+	4950 2300 4950 3850
+Wire Notes Line
+	5050 2300 5050 3850
 $EndSCHEMATC

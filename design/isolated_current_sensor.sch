@@ -5033,8 +5033,6 @@ Text HLabel 4550 3450 0    60   Input ~ 0
 VDD2
 Text Notes 900  1550 0    260  ~ 52
 0-650V phase voltage measurement\nusing isolation amplifier
-Text Label 5100 4250 0    30   ~ 0
-VIN-
 Wire Wire Line
 	5100 3450 5100 3500
 Wire Wire Line
